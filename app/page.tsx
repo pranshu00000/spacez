@@ -53,7 +53,7 @@ export default function Home() {
         {/* Sitewide coupons */}
         <div className="mt-6">
           <h2 className="font-bold text-lg mb-4 text-[#4B4E4B]">Sitewide coupons:</h2>
-          <div className="flex flex-col gap-4">
+          <div className="flex flex-col gap-4 md:grid md:grid-cols-2 lg:grid-cols-3">
             <CouponCard
               amount="₹1,500"
               type="amount"
@@ -84,7 +84,7 @@ export default function Home() {
             </div>
           </div>
 
-          <div className="flex flex-col gap-4">
+          <div className="flex flex-col gap-4 md:grid md:grid-cols-2 lg:grid-cols-3">
             <CouponCard
               amount="400"
               type="amount"
